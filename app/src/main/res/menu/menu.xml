@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home_page"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/nav_categories_page"
+        android:icon="@drawable/ic_categories"
+        android:title="@string/categories" />
+
+    <item
+        android:id="@+id/nav_download_page"
+        android:icon="@drawable/ic_download"
+        android:title="@string/download" />
+
+    <item
+        android:id="@+id/nav_more_page"
+        android:icon="@drawable/ic_more"
+        android:title="@string/more" />
+</menu>
