@@ -6,7 +6,8 @@ This project is assessment from PT eDOT. The requirement is have few prerequisit
    ![Mockup](Images/Mockup.png)
 2. Create Structure code using MVVM
 3. Integration with API
-   `https://movie-database-alternative.p.rapidapi.com/?s=Avengers%20Endgame&r=json&page=1
+   ```
+   https://movie-database-alternative.p.rapidapi.com/?s=Avengers%20Endgame&r=json&page=1
 
    val client = OkHttpClient()
    val request = Request.Builder().url("https://movie-database-alternative.p.rapidapi.com/?s=Avengers%20Endgame&r=json&page=1")
@@ -15,7 +16,7 @@ This project is assessment from PT eDOT. The requirement is have few prerequisit
    .addHeader("X-RapidAPI-Host", "movie-database-alternative.p.rapidapi.com")
    .build()
    val response = client.newCall(request).execute()
-   `
+   ```
 4. Create layout picture with slider
 
 ## Overview
